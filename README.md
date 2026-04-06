@@ -12,3 +12,4 @@ This repository contains starter files for the lab notebook. It includes exercis
 8. jQuery
 9. Node.js
 10. Debugging
+# CS463-Lab-Notebook
