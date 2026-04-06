@@ -7,8 +7,38 @@
     <title>Exercise 02 - Form</title>
   </head>
   <body>
+    <nav>
+      <a href="01-books.html">Exercise 01 - Books</a> |
+      <a href="02-form.html">Exercise 02 - Form</a>
+    </nav>
     <main>
-      <!-- Add your code here -->
+      <h1>Roth IRA Calculator</h1>
+      <form>
+        <p>
+          <label for="current-age">Current Age</label>
+          <input type="number" id="current-age" name="current-age" min="0" max="120" value="30">
+        </p>
+        <p>
+          <label for="retirement-age">Retirement Age</label>
+          <input type="number" id="retirement-age" name="retirement-age" min="0" max="120" value="65">
+        </p>
+        <p>
+          <label for="current-balance">Current Roth IRA Balance</label>
+          <input type="number" id="current-balance" name="current-balance" min="0" value="10000">
+        </p>
+        <p>
+          <label for="annual-contribution">Annual Contribution</label>
+          <input type="number" id="annual-contribution" name="annual-contribution" min="0" value="6000">
+        </p>
+        <p>
+          <label for="annual-return">Expected Annual Return (%)</label>
+          <input type="number" id="annual-return" name="annual-return" min="0" max="100" value="7">
+        </p>
+        <p>
+          <button type="submit">Calculate</button>
+        </p>
+      </form>
     </main>
   </body>
 </html>
+
