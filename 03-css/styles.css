@@ -1,1 +1,80 @@
-/* Add your CSS code here  */
+:root {
+  --ice-blue-juvie: #8fbcd4;
+  --gothic-gray-blue: #6f8796;
+  --dark-slate-infinity: #1f2a33;
+  --midnight-blue: #161678;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: var(--dark-slate-infinity);
+  padding: 1rem;
+}
+
+.navbar a {
+  color: var(--ice-blue-juvie);
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  margin-right: 1rem;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.main-heading {
+  font-family: 'Cinzel', serif;
+  color: var(--gothic-gray-blue);
+}
+
+.book-images {
+  display: flex;
+  gap: 1rem;
+}
+
+.book-images img {
+  width: 200px;
+  border: 5px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.book-images img:hover {
+  border-color: var(--ice-blue-juvie);
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid var(--midnight-blue);
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type='submit'] {
+  background-color: var(--midnight-blue);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
