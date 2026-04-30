@@ -34,3 +34,44 @@ img {
   max-width: 300px;
   display: block;
 }
+
+.semantics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gray1);
+  padding: 10px 20px;
+  color: var(--white);
+}
+
+.semantics-nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.semantics-nav li a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.semantics-nav li a:hover {
+  background-color: var(--lightteal);
+}
+
+.game-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.game-section {
+  flex: 1 1 300px;
+  margin: 10px;
+  border: 1px solid var(--gray3);
+  padding: 15px;
+  text-align: center;
+}

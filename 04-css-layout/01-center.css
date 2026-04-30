@@ -1,0 +1,18 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 2px solid var(--blue);
+}
+
+.center-box {
+  background-color: var(--teal);
+  color: var(--white);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
