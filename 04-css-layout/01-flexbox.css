@@ -3,3 +3,13 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.flex-item {
+  background-color: lightblue;
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+  flex: 1 1 200px; /* flex-grow, flex-shrink, flex-basis */
+}

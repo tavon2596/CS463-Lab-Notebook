@@ -38,6 +38,15 @@
     'footer';
 }
 
+.grid-item {
+  background-color: lightgoldenrod;
+  border: 1px solid goldenrod;
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+}
+
 @media (max-width: 415px) {
   body {
     font-size: 1em;
