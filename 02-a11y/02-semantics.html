@@ -4,21 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise 02 - Semantics</title>
-    <link rel="stylesheet" href="02-semantics.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
   </head>
   <body>
-    <header class="top-of-page">
+    <header class="semantics-header">
       <h1>Simple Game Showcase</h1>
     </header>
 
-    <nav class="navigation">
-      <a href="#dino">Dino Game</a>
-      <a href="#goose">Untitled Goose Game</a>
-      <a href="#flappy">Flappy Bird</a>
+    <nav class="semantics-nav">
+      <ul>
+        <li><a href="#dino">Dino Game</a></li>
+        <li><a href="#goose">Untitled Goose Game</a></li>
+        <li><a href="#flappy">Flappy Bird</a></li>
+      </ul>
     </nav>
     <br />
     <main class="main-area">
-      <section id="dino" class="page-area">
+      <div class="game-sections">
+      <section id="dino" class="game-section">
         <h2>Chrome Dino Game</h2>
         <p>
           The Chrome Dino Game was released in 2014 by Google. It appears when
@@ -40,7 +43,7 @@
         </figure>
       </section>
       <br />
-      <section id="goose" class="page-area">
+      <section id="goose" class="game-section">
         <h2>Untitled Goose Game</h2>
         <p>
           Untitled Goose Game was released in 2019 by House House. It is a
@@ -61,7 +64,7 @@
         </figure>
       </section>
       <br />
-      <section id="flappy" class="page-area">
+      <section id="flappy" class="game-section">
         <h2>Flappy Bird</h2>
         <p>
           Flappy Bird was released in 2013 by Dong Nguyen. It is a mobile game
@@ -81,6 +84,7 @@
           <figcaption>The iconic Flappy Bird navigating pipes.</figcaption>
         </figure>
       </section>
+      </div>
     </main>
 
     <footer class="bottom-of-page">
