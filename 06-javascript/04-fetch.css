@@ -112,7 +112,7 @@ body {
 /* Type specific colors */
 .type-grass {
   background-color: #78c850;
-  color: white;
+  color: var(--main-color);
 }
 .type-poison {
   background-color: #a040a0;
@@ -124,7 +124,7 @@ body {
 }
 .type-flying {
   background-color: #a890f0;
-  color: white;
+  color: var(--main-color);
 }
 .type-water {
   background-color: #6890f0;
@@ -136,19 +136,19 @@ body {
 }
 .type-normal {
   background-color: #a8a878;
-  color: white;
+  color: var(--main-color);
 }
 .type-electric {
   background-color: #f8d030;
-  color: white;
+  color: var(--main-color);
 }
 .type-ground {
   background-color: #e0c068;
-  color: white;
+  color: var(--main-color);
 }
 .type-fairy {
   background-color: #ee99ac;
-  color: white;
+  color: var(--main-color);
 }
 .type-fighting {
   background-color: #c03028;
@@ -164,11 +164,11 @@ body {
 }
 .type-steel {
   background-color: #b8b8d0;
-  color: white;
+  color: var(--main-color);
 }
 .type-ice {
   background-color: #98d8d8;
-  color: white;
+  color: var(--main-color);
 }
 .type-ghost {
   background-color: #705898;
