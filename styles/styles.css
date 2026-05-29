@@ -42,7 +42,7 @@ h1 {
 .flex-item,
 .grid-item {
   padding: 10px;
-  background-color: var(--purple);
+  background-color: var(--navy);
   color: var(--white);
   font-size: 2.4em;
   text-align: center;
@@ -64,7 +64,7 @@ h1 {
 }
 
 .center-box {
-  background-color: var(--teal);
+  background-color: var(--green);
   color: var(--white);
   width: 200px;
   height: 200px;
